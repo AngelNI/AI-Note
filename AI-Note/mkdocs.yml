@@ -1,0 +1,117 @@
+site_name: Beautiful World
+site_author: Sky_H_N
+repo_url: https://github.com/AngelNI
+site_url: https://github.com/AngelNI
+site_description: Beautiful World
+
+theme:
+  language: 'zh'
+  feature:
+    tabs: true
+  name: 'material'
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+    font:
+    text: 'Ubuntu'
+    code: 'Ubuntu Mono'
+    include_search_page: false
+    search_index_only: true
+
+page:
+    - Home: index.md
+    - About: about.md
+    - AI-Note:
+        -BPR: BPR.md
+        -CNN: CNN.md
+        -Collaborative Filtering: Collaborative Filtering.md
+        -Evaluate: Evaluate.md
+        -Gradient Descent: Gradient Descent.md
+        -K-Means: K-Means.md
+        -KNN: KNN.md
+        -Matrix Factorization: Matrix Factorization.md
+        -Naive Bayes: Naive Bayes.md
+        -NN: NN.md
+    - Algorithm:
+        -思想方法简介: amethod.md
+        -枚举: enumeration.md  
+        -模拟: 模拟.md
+        -递归&分治: 递归&分治.md
+        -贪心: 贪心.md
+        -排序: 
+          -排序简介: 排序简介.md
+          -插入排序: 插入排序.md
+          -堆排序: 堆排序.md
+          -归并排序: 归并排序.md
+          -基数排序: 基数排序.md
+          -计数排序: 计数排序.md
+          -快速排序: 快速排序.md
+          -冒泡排序: 冒泡排序.md
+          -希尔排序: 希尔排序.md
+          -选择排序: 选择排序.md
+          -排序应用: 排序应用.md
+          -排序相关STL: 排序相关STL.md
+        -二分: 二分.md
+        -倍增: 倍增.md
+        -构造: 构造.md
+        -前缀和&差分: 前缀和&差分.md
+    - Friends: 
+        -Friends: friends.md
+extra:
+  palette:
+    primary: 'Blue Grey'
+    accent: 'Red'
+
+extra:
+  search:
+    language: 'zh'
+  social:
+    - type: 'github'
+      link: 'https://github.com/AngelNI'
+
+extra_css:
+  - '_static/extra.css'
+
+extra_javascript:
+  - 'https://cdn.jsdelivr.net/gh/ethantw/Han@3.3.0/dist/han.min.js'
+  - '_static/js/extra.js?v=10'
+  - 'https://cdnjs.loli.net/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML'
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+
+  
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: true
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.progressbar
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: math
+          class: arithmatex
+          format: !!python/name:pymdownx.arithmatex.fence_mathjax_format
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
