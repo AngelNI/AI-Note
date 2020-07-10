@@ -1,0 +1,1223 @@
+
+
+
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="Beautiful World">
+      
+      
+        <link rel="canonical" href="https://github.com/AngelNI/AI-Note/Evaluate/">
+      
+      
+        <meta name="author" content="Sky_H_N">
+      
+      
+        <meta name="lang:clipboard.copy" content="复制">
+      
+        <meta name="lang:clipboard.copied" content="已复制">
+      
+        <meta name="lang:search.language" content="zh">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="没有找到符合条件的结果">
+      
+        <meta name="lang:search.result.one" content="找到 1 个符合条件的结果">
+      
+        <meta name="lang:search.result.other" content="# 个符合条件的结果">
+      
+        <meta name="lang:search.tokenizer" content="[\uff0c\u3002]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.0">
+    
+    
+      
+        <title>Evaluate - Beautiful World</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.0284f74d.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.01803549.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#3f51b5">
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+      <link rel="stylesheet" href="../../_static/extra.css">
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#evaluate" tabindex="1" class="md-skip">
+        跳转至
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="https://github.com/AngelNI" title="Beautiful World" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              Beautiful World
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Evaluate
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            键入以开始搜索
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/AngelNI/" title="前往 Github 仓库" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+        
+
+  
+
+<nav class="md-tabs md-tabs--active" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  <li class="md-tabs__item">
+    
+      <a href="../.." title="Welcome to My World" class="md-tabs__link">
+        Welcome to My World
+      </a>
+    
+  </li>
+
+      
+        
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../BPR/" title="AI Note" class="md-tabs__link md-tabs__link--active">
+          AI Note
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../Algorithm/amethod/" title="Algorithm" class="md-tabs__link">
+          Algorithm
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../Friends/friends/" title="Friends" class="md-tabs__link">
+          Friends
+        </a>
+      
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="https://github.com/AngelNI" title="Beautiful World" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    Beautiful World
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/AngelNI/" title="前往 Github 仓库" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Welcome to My World" class="md-nav__link">
+      Welcome to My World
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../about/" title="About" class="md-nav__link">
+      About
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+    
+    <label class="md-nav__link" for="nav-3">
+      AI Note
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        AI Note
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../BPR/" title="BPR" class="md-nav__link">
+      BPR
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../CNN/" title="CNN" class="md-nav__link">
+      CNN
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Collaborative Filtering/" title="Collaborative Filtering" class="md-nav__link">
+      Collaborative Filtering
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Evaluate
+      </label>
+    
+    <a href="./" title="Evaluate" class="md-nav__link md-nav__link--active">
+      Evaluate
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">目录</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1accuracy" title="1、准确率（Accuracy）" class="md-nav__link">
+    1、准确率（Accuracy）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2precision" title="2、精确率、精度（Precision）" class="md-nav__link">
+    2、精确率、精度（Precision）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3recall" title="3、召回率（Recall）" class="md-nav__link">
+    3、召回率（Recall）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4f-measure" title="4、综合评价指标（F-Measure）" class="md-nav__link">
+    4、综合评价指标（F-Measure）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5roc" title="5、ROC曲线：" class="md-nav__link">
+    5、ROC曲线：
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6pr" title="6、PR曲线：" class="md-nav__link">
+    6、PR曲线：
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" title="补充" class="md-nav__link">
+    补充
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1map" title="1.MAP" class="md-nav__link">
+    1.MAP
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2ndcg" title="2.NDCG" class="md-nav__link">
+    2.NDCG
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1cg" title="1.CG" class="md-nav__link">
+    1.CG
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2dcg" title="2.DCG" class="md-nav__link">
+    2.DCG
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3ndcg" title="3.NDCG" class="md-nav__link">
+    3.NDCG
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Gradient Descent/" title="Gradient Descent" class="md-nav__link">
+      Gradient Descent
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../K-Means/" title="K-Means" class="md-nav__link">
+      K-Means
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../KNN/" title="KNN" class="md-nav__link">
+      KNN
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Matrix Factorization/" title="Matrix Factorization" class="md-nav__link">
+      Matrix Factorization
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../NN/" title="NN" class="md-nav__link">
+      NN
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Naive Bayes/" title="Naive Bayes" class="md-nav__link">
+      Naive Bayes
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Algorithm
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Algorithm
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Algorithm/amethod/" title="思想方法简介" class="md-nav__link">
+      思想方法简介
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Algorithm/enumeration/" title="枚举" class="md-nav__link">
+      枚举
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Algorithm/二分/" title="二分" class="md-nav__link">
+      二分
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Algorithm/倍增/" title="倍增" class="md-nav__link">
+      倍增
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Algorithm/前缀和&差分/" title="前缀和&差分" class="md-nav__link">
+      前缀和&差分
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Algorithm/构造/" title="构造" class="md-nav__link">
+      构造
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Algorithm/模拟/" title="模拟" class="md-nav__link">
+      模拟
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Algorithm/贪心/" title="贪心" class="md-nav__link">
+      贪心
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Algorithm/递归/" title="递归" class="md-nav__link">
+      递归
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-10" type="checkbox" id="nav-4-10">
+    
+    <label class="md-nav__link" for="nav-4-10">
+      排序
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-10">
+        排序
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Algorithm/排序/冒泡排序/" title="冒泡排序" class="md-nav__link">
+      冒泡排序
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Algorithm/排序/基数排序/" title="基数排序" class="md-nav__link">
+      基数排序
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Algorithm/排序/堆排序/" title="堆排序" class="md-nav__link">
+      堆排序
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Algorithm/排序/希尔排序/" title="希尔排序" class="md-nav__link">
+      希尔排序
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Algorithm/排序/应用/" title="应用" class="md-nav__link">
+      应用
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Algorithm/排序/归并排序/" title="归并排序" class="md-nav__link">
+      归并排序
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Algorithm/排序/快速排序/" title="快速排序" class="md-nav__link">
+      快速排序
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Algorithm/排序/排序相关STL/" title="排序相关STL" class="md-nav__link">
+      排序相关STL
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Algorithm/排序/排序简介/" title="排序简介" class="md-nav__link">
+      排序简介
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Algorithm/排序/插入排序/" title="插入排序" class="md-nav__link">
+      插入排序
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Algorithm/排序/计数排序/" title="计数排序" class="md-nav__link">
+      计数排序
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Algorithm/排序/选择排序/" title="选择排序" class="md-nav__link">
+      选择排序
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Friends
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Friends
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Friends/friends/" title="Friends" class="md-nav__link">
+      Friends
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">目录</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1accuracy" title="1、准确率（Accuracy）" class="md-nav__link">
+    1、准确率（Accuracy）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2precision" title="2、精确率、精度（Precision）" class="md-nav__link">
+    2、精确率、精度（Precision）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3recall" title="3、召回率（Recall）" class="md-nav__link">
+    3、召回率（Recall）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4f-measure" title="4、综合评价指标（F-Measure）" class="md-nav__link">
+    4、综合评价指标（F-Measure）
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5roc" title="5、ROC曲线：" class="md-nav__link">
+    5、ROC曲线：
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6pr" title="6、PR曲线：" class="md-nav__link">
+    6、PR曲线：
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" title="补充" class="md-nav__link">
+    补充
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1map" title="1.MAP" class="md-nav__link">
+    1.MAP
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2ndcg" title="2.NDCG" class="md-nav__link">
+    2.NDCG
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1cg" title="1.CG" class="md-nav__link">
+    1.CG
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2dcg" title="2.DCG" class="md-nav__link">
+    2.DCG
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3ndcg" title="3.NDCG" class="md-nav__link">
+    3.NDCG
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/AngelNI/edit/master/docs/AI-Note/Evaluate.md" title="编辑此页" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="evaluate">Evaluate<a class="headerlink" href="#evaluate" title="Permanent link">&para;</a></h1>
+<p><img src="https://s2.ax1x.com/2019/08/16/mZiNo8.png" alt="" border="0" /></p>
+<p><strong>在介绍指标前必须先了解“混淆矩阵”：</strong></p>
+<p><strong>混淆矩阵</strong></p>
+<p>True Positive(真正，TP)：将正类预测为正类数</p>
+<p>True Negative(真负，TN)：将负类预测为负类数</p>
+<p>False Positive(假正，FP)：将负类预测为正类数误报 (Type I error)</p>
+<p>False Negative(假负，FN)：将正类预测为负类数→漏报 (Type II error)</p>
+<p><img src="https://s2.ax1x.com/2019/08/16/mZiWYF.png" alt="" border="0" /></p>
+<h2 id="1accuracy"><strong>1、准确率（Accuracy）</strong><a class="headerlink" href="#1accuracy" title="Permanent link">&para;</a></h2>
+<p>准确率(accuracy)计算公式为：</p>
+<p><img src="https://s2.ax1x.com/2019/08/16/mZi4SJ.png" alt="" border="0" /></p>
+<p>注：准确率是我们最常见的评价指标，而且很容易理解，就是被分对的样本数除以所有的样本数，通常来说，正确率越高，分类器越好。准确率确实是一个很好很直观的评价指标，但是有时候准确率高并不能代表一个算法就好。比如某个地区某天地震的预测，假设我们有一堆的特征作为地震分类的属性，类别只有两个：0：不发生地震、1：发生地震。一个不加思考的分类器，对每一个测试用例都将类别划分为0，那那么它就可能达到99%的准确率，但真的地震来临时，这个分类器毫无察觉，这个分类带来的损失是巨大的。为什么99%的准确率的分类器却不是我们想要的，因为这里数据分布不均衡，类别1的数据太少，完全错分类别1依然可以达到很高的准确率却忽视了我们关注的东西。再举个例子说明下。在正负样本不平衡的情况下，准确率这个评价指标有很大的缺陷。比如在互联网广告里面，点击的数量是很少的，一般只有千分之几，如果用acc，即使全部预测成负类（不点击）acc也有 99% 以上，没有意义。因此，单纯靠准确率来评价一个算法模型是远远不够科学全面的。</p>
+<h2 id="2precision"><strong>2、精确率、精度（Precision）</strong><a class="headerlink" href="#2precision" title="Permanent link">&para;</a></h2>
+<p>精确率(precision)定义为：</p>
+<p><img src="https://s2.ax1x.com/2019/08/16/mZiXfe.png" alt="" border="0" /></p>
+<p>表示被分为正例的示例中实际为正例的比例.</p>
+<h2 id="3recall"><strong>3、召回率（Recall）</strong><a class="headerlink" href="#3recall" title="Permanent link">&para;</a></h2>
+<p>召回率是覆盖面的度量，度量有多个正例被分为正例，recall=TP/(TP+FN)=TP/P=sensitive，可以看到召回率与灵敏度是一样的。</p>
+<p><strong>灵敏度（sensitive）</strong></p>
+<p>sensitive = TP/P，表示的是所有正例中被分对的比例，衡量了分类器对正例的识别能力。</p>
+<h2 id="4f-measure"><strong>4、综合评价指标（F-Measure）</strong><a class="headerlink" href="#4f-measure" title="Permanent link">&para;</a></h2>
+<p>P和R指标有时候会出现的矛盾的情况，这样就需要综合考虑他们，最常见的方法就是F-Measure（又称为F-Score）。
+F-Measure是Precision和Recall加权调和平均：</p>
+<p><img src="https://s2.ax1x.com/2019/08/16/mZFcjA.png" alt="" border="0" /></p>
+<p>当参数α=1时，就是最常见的F1，也即</p>
+<p><img src="https://s2.ax1x.com/2019/08/16/mZF4N8.png" alt="mZF4N8.png" border="0" height = 100/></p>
+<p>可知F1综合了P和R的结果，当F1较高时则能说明试验方法比较有效。</p>
+<h2 id="5roc"><strong>5、ROC曲线：</strong><a class="headerlink" href="#5roc" title="Permanent link">&para;</a></h2>
+<p>ROC（Receiver Operating Characteristic）曲线是以假正率（FP_rate）和真正率（TP_rate）为轴的曲线，ROC曲线下面的面积我们叫做AUC，如下图所示：</p>
+<p><img src="https://s2.ax1x.com/2019/08/16/mZFLBq.png" alt="" border="0" /></p>
+<p><img src="https://s2.ax1x.com/2019/08/16/mZkKvd.png" alt="" border="0" /></p>
+<p>（1）曲线与FP_rate轴围成的面积（记作AUC）越大，说明性能越好，即图上L2曲线对应的性能优于曲线L1对应的性能。即：曲线越靠近A点（左上方）性能越好，曲线越靠近B点（右下方）曲线性能越差。</p>
+<p>（2）A点是最完美的performance点，B处是性能最差点。</p>
+<p>（3）位于C-D线上的点说明算法性能和random猜测是一样的–如C、D、E点。位于C-D之上（即曲线位于白色的三角形内）说明算法性能优于随机猜测–如G点，位于C-D之下（即曲线位于灰色的三角形内）说明算法性能差于随机猜测–如F点。</p>
+<p>（4）虽然ROC曲线相比较于Precision和Recall等衡量指标更加合理，但是其在高不平衡数据条件下的的表现仍然过于理想，不能够很好的展示实际情况。</p>
+<h2 id="6pr"><strong>6、PR曲线：</strong><a class="headerlink" href="#6pr" title="Permanent link">&para;</a></h2>
+<p>即，PR（Precision-Recall）曲线。</p>
+<p>举个例子（例子来自Paper：Learning from eImbalanced Data）：
+假设N_c&gt;&gt;P_c（即Negative的数量远远大于Positive的数量），若FP很大，即有很多N的sample被预测为P，因为FP_rate = FP/N_c，因此FP_rate的值仍然很小（如果利用ROC曲线则会判断其性能很好，但是实际上其性能并不好），但是如果利用PR，因为Precision综合考虑了TP和FP的值，因此在极度不平衡的数据下（Positive的样本较少），PR曲线可能比ROC曲线更实用。</p>
+<h2 id="_1"><strong>补充</strong><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<h3 id="1map"><strong>1.MAP</strong><a class="headerlink" href="#1map" title="Permanent link">&para;</a></h3>
+<p>在了解MAP(Mean Average Precision)之前，先来看一下AP(Average Precision), 即为平均准确率。</p>
+<p>对于AP可以用这种方式理解: 假使当我们使用google搜索某个关键词，返回了10个结果。当然最好的情况是这10个结果都是我们想要的相关信息。但是假如只有部分是相关的，比如5个，那么这5个结果如果被显示的比较靠前也是一个相对不错的结果。但是如果这个5个相关信息从第6个返回结果才开始出现，那么这种情况便是比较差的。这便是AP所反映的指标，与recall的概念有些类似，不过是“顺序敏感的recall”。</p>
+<p>比如对于用户 uu, 我们给他推荐一些物品，那么 uu 的平均准确率定义为：</p>
+<p><img src="https://s2.ax1x.com/2019/08/16/mZAlz4.png" alt="" border="0" /></p>
+<p>那么对于MAP(Mean Average Precision)，就很容易知道即为所有用户 u 的AP再取均值(mean)而已。那么则有:</p>
+<p><img src="https://s2.ax1x.com/2019/08/16/mZAwWD.png" alt="" border="0" height=80/></p>
+<h3 id="2ndcg"><strong>2.NDCG</strong><a class="headerlink" href="#2ndcg" title="Permanent link">&para;</a></h3>
+<h4 id="1cg"><strong>1.CG</strong><a class="headerlink" href="#1cg" title="Permanent link">&para;</a></h4>
+<p>先从后两个字母CG(Cummulative Gain)说起, 直接翻译的话叫做“累计增益”。 在推荐系统中，CG即将每个推荐结果相关性(relevance)的分值累加后作为整个推荐列表(list)的得分。</p>
+<p><img src="https://s2.ax1x.com/2019/08/16/mZEFk6.png" alt="mZEFk6.png" border="0" height=100/></p>
+<h4 id="2dcg">2.DCG<a class="headerlink" href="#2dcg" title="Permanent link">&para;</a></h4>
+<p>CG的一个缺点是没有考虑每个推荐结果处于不同位置对整个推荐效果的影响，例如我们总是希望相关性高的结果应排在前面。显然，如果相关性低的结果排在靠前的位置会严重影响用户体验， 所以在CG的基础上引入位置影响因素，即DCG(Discounted Cummulative Gain), “Discounted”有打折，折扣的意思，这里指的是对于排名靠后推荐结果的推荐效果进行“打折处理”:</p>
+<p><img src="https://s2.ax1x.com/2019/08/16/mZE0A0.png" alt="" border="0" /></p>
+<h4 id="3ndcg">3.NDCG<a class="headerlink" href="#3ndcg" title="Permanent link">&para;</a></h4>
+<p>DCG仍然有其局限之处，即不同的推荐列表之间，很难进行横向的评估。而我们评估一个推荐系统，不可能仅使用一个用户的推荐列表及相应结果进行评估， 而是对整个测试集中的用户及其推荐列表结果进行评估。 那么不同用户的推荐列表的评估分数就需要进行归一化，也即NDCG(Normalized Discounted Cummulative Gain)。</p>
+<p>在介绍NDCG之前，还需要了解一个概念：IDCG. IDCG, 即Ideal DCG， 指推荐系统为某一用户返回的最好推荐结果列表， 即假设返回结果按照相关性排序， 最相关的结果放在最前面， 此序列的DCG为IDCG。因此DCG的值介于 (0,IDCG](0,IDCG] ，故NDCG的值介于(0,1].</p>
+<p>对于用户 uu 的NDCG@k定义为： </p>
+<p><img src="https://s2.ax1x.com/2019/08/16/mZE6c4.png" alt="" border="0" /></p>
+<p>这里的 k表示推荐列表的大小。</p>
+<p>那么，则有： </p>
+<p><img src="https://s2.ax1x.com/2019/08/16/mZEWH1.png" alt="" border="0" /></p>
+<p><img src="https://s2.ax1x.com/2019/08/16/mZE4N6.png" alt="" border="0" /></p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../Collaborative Filtering/" title="Collaborative Filtering" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  上一页
+                </span>
+                Collaborative Filtering
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../Gradient Descent/" title="Gradient Descent" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  下一页
+                </span>
+                Gradient Descent
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+  <div class="md-footer-social">
+    <link rel="stylesheet" href="../../assets/fonts/font-awesome.css">
+    
+      <a href="https://github.com/AngelNI" class="md-footer-social__link fa fa-github"></a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.245445c6.js"></script>
+      
+        
+        
+          
+          <script src="../../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
+          
+            
+              
+              
+            
+          
+          
+        
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+        <script src="https://cdn.jsdelivr.net/gh/ethantw/Han@3.3.0/dist/han.min.js"></script>
+      
+        <script src="../../_static/js/extra.js?v=10"></script>
+      
+        <script src="https://cdnjs.loli.net/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+      
+    
+  </body>
+</html>

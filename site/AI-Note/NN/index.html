@@ -1,0 +1,1518 @@
+
+
+
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="Beautiful World">
+      
+      
+        <link rel="canonical" href="https://github.com/AngelNI/AI-Note/NN/">
+      
+      
+        <meta name="author" content="Sky_H_N">
+      
+      
+        <meta name="lang:clipboard.copy" content="复制">
+      
+        <meta name="lang:clipboard.copied" content="已复制">
+      
+        <meta name="lang:search.language" content="zh">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="没有找到符合条件的结果">
+      
+        <meta name="lang:search.result.one" content="找到 1 个符合条件的结果">
+      
+        <meta name="lang:search.result.other" content="# 个符合条件的结果">
+      
+        <meta name="lang:search.tokenizer" content="[\uff0c\u3002]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.0">
+    
+    
+      
+        <title>NN - Beautiful World</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.0284f74d.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.01803549.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#3f51b5">
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+      <link rel="stylesheet" href="../../_static/extra.css">
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#nn" tabindex="1" class="md-skip">
+        跳转至
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="https://github.com/AngelNI" title="Beautiful World" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              Beautiful World
+            </span>
+            <span class="md-header-nav__topic">
+              
+                NN
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            键入以开始搜索
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/AngelNI/" title="前往 Github 仓库" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+        
+
+  
+
+<nav class="md-tabs md-tabs--active" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  <li class="md-tabs__item">
+    
+      <a href="../.." title="Welcome to My World" class="md-tabs__link">
+        Welcome to My World
+      </a>
+    
+  </li>
+
+      
+        
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../BPR/" title="AI Note" class="md-tabs__link md-tabs__link--active">
+          AI Note
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../Algorithm/amethod/" title="Algorithm" class="md-tabs__link">
+          Algorithm
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../Friends/friends/" title="Friends" class="md-tabs__link">
+          Friends
+        </a>
+      
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="https://github.com/AngelNI" title="Beautiful World" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    Beautiful World
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/AngelNI/" title="前往 Github 仓库" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Welcome to My World" class="md-nav__link">
+      Welcome to My World
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../about/" title="About" class="md-nav__link">
+      About
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+    
+    <label class="md-nav__link" for="nav-3">
+      AI Note
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        AI Note
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../BPR/" title="BPR" class="md-nav__link">
+      BPR
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../CNN/" title="CNN" class="md-nav__link">
+      CNN
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Collaborative Filtering/" title="Collaborative Filtering" class="md-nav__link">
+      Collaborative Filtering
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Evaluate/" title="Evaluate" class="md-nav__link">
+      Evaluate
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Gradient Descent/" title="Gradient Descent" class="md-nav__link">
+      Gradient Descent
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../K-Means/" title="K-Means" class="md-nav__link">
+      K-Means
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../KNN/" title="KNN" class="md-nav__link">
+      KNN
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Matrix Factorization/" title="Matrix Factorization" class="md-nav__link">
+      Matrix Factorization
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        NN
+      </label>
+    
+    <a href="./" title="NN" class="md-nav__link md-nav__link--active">
+      NN
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">目录</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" title="1.神经元" class="md-nav__link">
+    1.神经元
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2m-p" title="2.M-P神经元模型" class="md-nav__link">
+    2.M-P神经元模型
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" title="3.  感知机和神经网络" class="md-nav__link">
+    3.  感知机和神经网络
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" title="4.激活函数" class="md-nav__link">
+    4.激活函数
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-sigmoid" title="4.1  sigmoid" class="md-nav__link">
+    4.1  sigmoid
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-tanh" title="4.2 tanh" class="md-nav__link">
+    4.2 tanh
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-relu" title="4.3. ReLu" class="md-nav__link">
+    4.3. ReLu
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" title="5. 神经网络的损失函数" class="md-nav__link">
+    5. 神经网络的损失函数
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6" title="6.  简单案例推导" class="md-nav__link">
+    6.  简单案例推导
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61" title="6.1正向传导" class="md-nav__link">
+    6.1正向传导
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-1" title="6.1 .1输入层——&gt;隐含层" class="md-nav__link">
+    6.1 .1输入层——&gt;隐含层
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#612" title="6.1.2  隐藏层——&gt;输出层" class="md-nav__link">
+    6.1.2  隐藏层——&gt;输出层
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62" title="6.2反向传播" class="md-nav__link">
+    6.2反向传播
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#621" title="6.2.1  计算总误差" class="md-nav__link">
+    6.2.1  计算总误差
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#622" title="6.2.2  隐藏层——&gt;输出层权值更新" class="md-nav__link">
+    6.2.2  隐藏层——&gt;输出层权值更新
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#623" title="6.2.3  隐藏层——&gt;输入层权值更新" class="md-nav__link">
+    6.2.3  隐藏层——&gt;输入层权值更新
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#624-b" title="6.2.4  偏执项b更新" class="md-nav__link">
+    6.2.4  偏执项b更新
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7" title="7 .神经网络模型" class="md-nav__link">
+    7 .神经网络模型
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#71" title="7.1  前馈神经网络" class="md-nav__link">
+    7.1  前馈神经网络
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#72-rbf" title="7.2  径向基神经网络（RBF）" class="md-nav__link">
+    7.2  径向基神经网络（RBF）
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#73" title="7.3  霍普菲尔网络" class="md-nav__link">
+    7.3  霍普菲尔网络
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#74" title="7.4卷积神经网络" class="md-nav__link">
+    7.4卷积神经网络
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#75" title="7.5  生成对抗网络" class="md-nav__link">
+    7.5  生成对抗网络
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Naive Bayes/" title="Naive Bayes" class="md-nav__link">
+      Naive Bayes
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Algorithm
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Algorithm
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Algorithm/amethod/" title="思想方法简介" class="md-nav__link">
+      思想方法简介
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Algorithm/enumeration/" title="枚举" class="md-nav__link">
+      枚举
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Algorithm/二分/" title="二分" class="md-nav__link">
+      二分
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Algorithm/倍增/" title="倍增" class="md-nav__link">
+      倍增
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Algorithm/前缀和&差分/" title="前缀和&差分" class="md-nav__link">
+      前缀和&差分
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Algorithm/构造/" title="构造" class="md-nav__link">
+      构造
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Algorithm/模拟/" title="模拟" class="md-nav__link">
+      模拟
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Algorithm/贪心/" title="贪心" class="md-nav__link">
+      贪心
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Algorithm/递归/" title="递归" class="md-nav__link">
+      递归
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-10" type="checkbox" id="nav-4-10">
+    
+    <label class="md-nav__link" for="nav-4-10">
+      排序
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-10">
+        排序
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Algorithm/排序/冒泡排序/" title="冒泡排序" class="md-nav__link">
+      冒泡排序
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Algorithm/排序/基数排序/" title="基数排序" class="md-nav__link">
+      基数排序
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Algorithm/排序/堆排序/" title="堆排序" class="md-nav__link">
+      堆排序
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Algorithm/排序/希尔排序/" title="希尔排序" class="md-nav__link">
+      希尔排序
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Algorithm/排序/应用/" title="应用" class="md-nav__link">
+      应用
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Algorithm/排序/归并排序/" title="归并排序" class="md-nav__link">
+      归并排序
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Algorithm/排序/快速排序/" title="快速排序" class="md-nav__link">
+      快速排序
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Algorithm/排序/排序相关STL/" title="排序相关STL" class="md-nav__link">
+      排序相关STL
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Algorithm/排序/排序简介/" title="排序简介" class="md-nav__link">
+      排序简介
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Algorithm/排序/插入排序/" title="插入排序" class="md-nav__link">
+      插入排序
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Algorithm/排序/计数排序/" title="计数排序" class="md-nav__link">
+      计数排序
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Algorithm/排序/选择排序/" title="选择排序" class="md-nav__link">
+      选择排序
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Friends
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Friends
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Friends/friends/" title="Friends" class="md-nav__link">
+      Friends
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">目录</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" title="1.神经元" class="md-nav__link">
+    1.神经元
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2m-p" title="2.M-P神经元模型" class="md-nav__link">
+    2.M-P神经元模型
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" title="3.  感知机和神经网络" class="md-nav__link">
+    3.  感知机和神经网络
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" title="4.激活函数" class="md-nav__link">
+    4.激活函数
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-sigmoid" title="4.1  sigmoid" class="md-nav__link">
+    4.1  sigmoid
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-tanh" title="4.2 tanh" class="md-nav__link">
+    4.2 tanh
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-relu" title="4.3. ReLu" class="md-nav__link">
+    4.3. ReLu
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" title="5. 神经网络的损失函数" class="md-nav__link">
+    5. 神经网络的损失函数
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6" title="6.  简单案例推导" class="md-nav__link">
+    6.  简单案例推导
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61" title="6.1正向传导" class="md-nav__link">
+    6.1正向传导
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-1" title="6.1 .1输入层——&gt;隐含层" class="md-nav__link">
+    6.1 .1输入层——&gt;隐含层
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#612" title="6.1.2  隐藏层——&gt;输出层" class="md-nav__link">
+    6.1.2  隐藏层——&gt;输出层
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62" title="6.2反向传播" class="md-nav__link">
+    6.2反向传播
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#621" title="6.2.1  计算总误差" class="md-nav__link">
+    6.2.1  计算总误差
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#622" title="6.2.2  隐藏层——&gt;输出层权值更新" class="md-nav__link">
+    6.2.2  隐藏层——&gt;输出层权值更新
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#623" title="6.2.3  隐藏层——&gt;输入层权值更新" class="md-nav__link">
+    6.2.3  隐藏层——&gt;输入层权值更新
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#624-b" title="6.2.4  偏执项b更新" class="md-nav__link">
+    6.2.4  偏执项b更新
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7" title="7 .神经网络模型" class="md-nav__link">
+    7 .神经网络模型
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#71" title="7.1  前馈神经网络" class="md-nav__link">
+    7.1  前馈神经网络
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#72-rbf" title="7.2  径向基神经网络（RBF）" class="md-nav__link">
+    7.2  径向基神经网络（RBF）
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#73" title="7.3  霍普菲尔网络" class="md-nav__link">
+    7.3  霍普菲尔网络
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#74" title="7.4卷积神经网络" class="md-nav__link">
+    7.4卷积神经网络
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#75" title="7.5  生成对抗网络" class="md-nav__link">
+    7.5  生成对抗网络
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/AngelNI/edit/master/docs/AI-Note/NN.md" title="编辑此页" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="nn">NN<a class="headerlink" href="#nn" title="Permanent link">&para;</a></h1>
+<h2 id="1">1.神经元<a class="headerlink" href="#1" title="Permanent link">&para;</a></h2>
+<p>神经元是神经网络中最基本的结构，也可以说是神经网络的基本单元，它的设计灵感完全来源于生物学上神经元的信息传播机制。我们学过生物的同学都知道，神经元有两种状态：兴奋和抑制。一般情况下，大多数的神经元是处于抑制状态，但是一旦某个神经元收到刺激，导致它的电位超过一个阈值，那么这个神经元就会被激活，处于“兴奋”状态，进而向其他的神经元传播化学物质（其实就是信息）。</p>
+<p><img src="https://s2.ax1x.com/2019/08/15/mA2nsS.png" alt="" border="0"></p>
+<h2 id="2m-p">2.M-P神经元模型<a class="headerlink" href="#2m-p" title="Permanent link">&para;</a></h2>
+<p>1943年，McCulloch和Pitts将上图的神经元结构用一种简单的模型进行了表示，构成了一种人工神经元模型，也就是我们现在经常用到的“M-P神经元模型”，如下图所示：</p>
+<p><img src="https://s2.ax1x.com/2019/08/15/mA2ULF.png" alt="" border="0" /></p>
+<p>从上图M-P神经元模型可以看出，神经元的输出</p>
+<p><img src="https://s2.ax1x.com/2019/08/15/mA2Wee.png" alt="" border="0" /></p>
+<p>其中θ为我们之前提到的神经元的激活阈值，函数f(⋅)也被称为是激活函数。如上图所示，函数f(⋅)可以用一个阶跃方程表示，大于阈值激活；否则则抑制。但是这样有点太粗暴，因为阶跃函数不光滑，不连续，不可导，因此我们更常用的方法是用sigmoid函数来表示函数函数f(⋅)。</p>
+<p><strong>激活函数</strong></p>
+<p>判定每个神经元的输出</p>
+<p>通俗来说，激活函数一般是非线性函数，其作用是能够给神经网络加入一些非线性因素，使得神经网络可以更好地解决较为复杂的问题。</p>
+<p>缺点：当输入非常大或者非常小的时候这些神经元的梯度接近于0的</p>
+<h2 id="3">3.  感知机和神经网络<a class="headerlink" href="#3" title="Permanent link">&para;</a></h2>
+<p>感知机（perceptron）是由两层神经元组成的结构，输入层用于接受外界输入信号，输出层（也被称为是感知机的功能层）就是M-P神经元。下图表示了一个输入层具有三个神经元（分别表示为x0、x1、x2）的感知机结构：</p>
+<p><img src="https://s2.ax1x.com/2019/08/15/mARM6K.jpg" alt="" border="0" /></p>
+<p>根据上图不难理解，感知机模型可以由如下公式表示：</p>
+<p>y=f(wx+b)</p>
+<h2 id="4">4.激活函数<a class="headerlink" href="#4" title="Permanent link">&para;</a></h2>
+<h3 id="41-sigmoid">4.1  sigmoid<a class="headerlink" href="#41-sigmoid" title="Permanent link">&para;</a></h3>
+<p><img src="https://s2.ax1x.com/2019/08/15/mARTAJ.png" alt="" border="0" /></p>
+<p><img src="https://s2.ax1x.com/2019/08/15/mAWuNj.png" alt="mAWuNj.png" border="0" height=150 width = 200/></p>
+<p>Sigmoid 函数的取值范围在 (0,1) 之间，单调连续，求导容易，一般用于二分类神经网络的输出层。</p>
+<p>缺点：</p>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>1.Sigmoid 函数饱和区范围广，容易造成梯度消失
+2.参数矩阵 W 的每个元素都会朝着同一个方向变化，同为正或同为负。这对于神经网络训练是不利的，所有的 W 都朝着同一符号方向变化会减小训练速度，增加模型训练时间。
+3.Sigmoid 函数包含 exp 指数运算，运算成本也比较大
+</pre></div>
+</td></tr></table>
+
+<h3 id="42-tanh">4.2 tanh<a class="headerlink" href="#42-tanh" title="Permanent link">&para;</a></h3>
+<p><img src="https://s2.ax1x.com/2019/08/15/mAWyDO.png" alt="" border="0" /></p>
+<p><img src="https://s2.ax1x.com/2019/08/15/mAW2UH.png" alt="" border="0" /></p>
+<p>tanh 函数的取值范围在 (-1,1) 之间，单调连续，求导容易。</p>
+<p>相比于 Sigmoid 函数，tanh 函数的优点主要有两个：</p>
+<ol>
+<li>其一，收敛速度更快，如下图所示，tanh 函数线性区斜率较 Sigmoid 更大一些。在此区域内训练速度会更快。</li>
+<li>其二，tanh 函数输出均值为零，也就不存在 Sigmoid 函数中 dW 恒为正或者恒为负，从而影响训练速度的问题。</li>
+</ol>
+<p>缺点：</p>
+<ol>
+<li>tanh 函数与 Sigmoid 函数一样，也存在饱和区梯度消失问题。其饱和区甚至比 Sigmoid 还要大一些，但不明显。</li>
+</ol>
+<h3 id="43-relu">4.3. ReLu<a class="headerlink" href="#43-relu" title="Permanent link">&para;</a></h3>
+<p><img src="https://s2.ax1x.com/2019/08/15/mAfDij.png" alt="" border="0" /></p>
+<p><img src="https://s2.ax1x.com/2019/08/15/mAhiOf.png" alt="" border="0" /></p>
+<p>优点：</p>
+<ol>
+<li>
+<p>没有饱和区，不存在梯度消失问题。</p>
+</li>
+<li>
+<p>没有复杂的指数运算，计算简单、效率提高。</p>
+</li>
+<li>
+<p>实际收敛速度较快，大约是 Sigmoid/tanh 的 6 倍。</p>
+</li>
+<li>
+<p>比 Sigmoid 更符合生物学神经激活机制。</p>
+</li>
+</ol>
+<p>缺点：</p>
+<ol>
+<li>ReLU 的输出仍然是非零对称的，可能出现 dW 恒为正或者恒为负，从而影响训练速度。</li>
+<li>当 x&lt;0 时，ReLU 输出总为零。该神经元输出为零，则反向传播时，权重、参数的梯度横为零，造成权重、参数永远不会更新，即造成神经元失效，形成了“死神经元”。</li>
+</ol>
+<p><strong>如何选择激活函数</strong></p>
+<ol>
+<li>
+<p>首选 ReLU，速度快，但是要注意学习速率的调整，</p>
+</li>
+<li>
+<p>如果 ReLU 效果欠佳,尝试使用 Leaky ReLU、ELU 或 Maxout 等变种。</p>
+</li>
+<li>
+<p>可以尝试使用 tanh。</p>
+</li>
+<li>
+<p>Sigmoid 和 tanh 在 RNN（LSTM、注意力机制等）结构中有所应用，作为门控或者概率值。其它情况下，减少 Sigmoid 的使用。</p>
+</li>
+<li>
+<p>在浅层神经网络中，选择使用哪种激励函数影响不大。</p>
+</li>
+</ol>
+<h2 id="5">5. 神经网络的损失函数<a class="headerlink" href="#5" title="Permanent link">&para;</a></h2>
+<p>常见的损失函数有均值函数（又叫二次代价函数），交叉熵函数</p>
+<p><img src="https://s2.ax1x.com/2019/08/15/mAhKlq.png" alt="" border="0">
+<img src="https://s2.ax1x.com/2019/08/15/mAhM60.png" alt="" border="0"></p>
+<p>用二次代价函数训练ANN，看到的实际效果是，如果误差越大，参数调整的幅度可能更小，训练更缓慢。</p>
+<p>当误差越大，梯度就越大，参数w,b偏置项b 调整得越快，训练速度也就越快</p>
+<h2 id="6">6.  简单案例推导<a class="headerlink" href="#6" title="Permanent link">&para;</a></h2>
+<p><img src="https://s2.ax1x.com/2019/08/15/mAhJk4.png" alt="" border="0" height=300 width=500/></p>
+<p>以此图作为简单的案例推导</p>
+<h3 id="61">6.1正向传导<a class="headerlink" href="#61" title="Permanent link">&para;</a></h3>
+<h4 id="61-1">6.1 .1输入层——&gt;隐含层<a class="headerlink" href="#61-1" title="Permanent link">&para;</a></h4>
+<p><strong>计算神经元的输入加权和</strong></p>
+<p><img src="https://s2.ax1x.com/2019/08/15/mAhvuV.png" alt="" border="0" height =50></p>
+<p><img src="https://s2.ax1x.com/2019/08/15/mAhXj0.png" alt="" border="0" height=50 width=350></p>
+<p><strong>计算神经元的h1、h2的输出</strong></p>
+<p><img src="https://s2.ax1x.com/2019/08/15/mA41gI.png" alt="" border="0" height=100></p>
+<p><img src="https://s2.ax1x.com/2019/08/15/mA4l8A.png" alt="" border="0" height =100></p>
+<h4 id="612">6.1.2  隐藏层——&gt;输出层<a class="headerlink" href="#612" title="Permanent link">&para;</a></h4>
+<p><strong>计算输出神经元o1、o2</strong></p>
+<p><img src="https://s2.ax1x.com/2019/08/15/mA4yrV.png" alt="mA4yrV.png" border="0"></p>
+<p><img src="https://s2.ax1x.com/2019/08/15/mA4sK0.png" alt="mA4sK0.png" border="0"></p>
+<p><img src="https://s2.ax1x.com/2019/08/15/mA4B2n.png" alt="mA4B2n.png" border="0" height=100 ></p>
+<p><img src="https://s2.ax1x.com/2019/08/15/mA4Dvq.png" alt="mA4Dvq.png" border="0" height = 100></p>
+<p>至此 前向传播到此结束</p>
+<h3 id="62">6.2反向传播<a class="headerlink" href="#62" title="Permanent link">&para;</a></h3>
+<h4 id="621">6.2.1  <strong>计算总误差</strong><a class="headerlink" href="#621" title="Permanent link">&para;</a></h4>
+<p><img src="https://s2.ax1x.com/2019/08/15/mA4jGd.jpg" alt="" border="0" height =300 width =600/></p>
+<h4 id="622">6.2.2  隐藏层——&gt;输出层权值更新<a class="headerlink" href="#622" title="Permanent link">&para;</a></h4>
+<p><img src="https://s2.ax1x.com/2019/08/15/mA5Zzn.jpg" alt="" border="0" height =300 width =600/></p>
+<p>同理可求</p>
+<p><img src="https://s2.ax1x.com/2019/08/15/mA5ns0.jpg" alt="" border="0" height =300 width =600/></p>
+<p><strong>权值更新</strong></p>
+<p><img src="https://s2.ax1x.com/2019/08/15/mAxK3V.jpg" alt="" border="0" height =300 width =600 /></p>
+<h4 id="623">6.2.3  隐藏层——&gt;输入层权值更新<a class="headerlink" href="#623" title="Permanent link">&para;</a></h4>
+<p><img src="https://s2.ax1x.com/2019/08/15/mAx3B4.jpg" alt="" border="0" height =600 width =600/></p>
+<p><img src="https://s2.ax1x.com/2019/08/15/mESmlV.jpg" alt="mESmlV.jpg" border="0" height =600 width =600/></p>
+<p>同理可求</p>
+<p><img src="https://s2.ax1x.com/2019/08/15/mAxYNR.jpg" alt="" border="0" height =600 width =600/></p>
+<p>权值更新</p>
+<p><img src="https://s2.ax1x.com/2019/08/15/mAxU9x.jpg" alt="mAxU9x.jpg" border="0" height =600 width =600/></p>
+<p><strong>权值更新后测试数据</strong></p>
+<h4 id="624-b">6.2.4  偏执项b更新<a class="headerlink" href="#624-b" title="Permanent link">&para;</a></h4>
+<p><strong>输出层——&gt;隐藏层</strong></p>
+<p>偏置项b由于他的系数是1，所以他的变化直接映射到误差的变化</p>
+<p><img src="https://s2.ax1x.com/2019/08/15/mESN6K.jpg" alt="" border="0" height width =600/></p>
+<h2 id="7">7 .神经网络模型<a class="headerlink" href="#7" title="Permanent link">&para;</a></h2>
+<h3 id="71">7.1  前馈神经网络<a class="headerlink" href="#71" title="Permanent link">&para;</a></h3>
+<p>前馈神经感知网络与感知机（FF or FFNN：Feed forward neural networks and P：perceptrons）非常简单，信息从前往后流动（分别对应输入和输出）。</p>
+<p>一般在描述神经网络的时候，都是从它的层说起，即相互平行的输入层、隐含层或者输出层神经结构。单独的神经细胞层内部，神经元之间互不相连；而一般相邻的两个神经细胞层则是全连接（一层的每个神经元和另一层的每一个神经元相连）。一个最简单却最具有实用性的神经网络由两个输入神经元和一个输出神经元构成，也就是一个逻辑门模型。给神经网络一对数据集（分别是“输入数据集”和“我们期望的输出数据集”），一般通过反向传播算法来训练前馈神经网络（FFNNs）。</p>
+<p>这就是所谓的监督式学习。与此相反的是无监督学习：我们只给输入，然后让神经网络去寻找数据当中的规律。反向传播的误差往往是神经网络当前输出和给定输出之间差值的某种变体（比如MSE或者仅仅是差值的线性变化）。如果神经网络具有足够的隐层神经元，那么理论上它总是能够建立输入数据和输出数据之间的关系。在实践中，FFNN的使用具有很大的局限性，但是，它们通常和其它神经网络一起组合成新的架构。</p>
+<h3 id="72-rbf">7.2  径向基神经网络（RBF）<a class="headerlink" href="#72-rbf" title="Permanent link">&para;</a></h3>
+<p>径向神经网络（RBF：Radial basis function）是一种以径向基核函数作为激活函数的前馈神经网络。</p>
+<h3 id="73">7.3  霍普菲尔网络<a class="headerlink" href="#73" title="Permanent link">&para;</a></h3>
+<p>霍普菲尔网络（HN：Hopfield network）是一种每一个神经元都跟其它神经元相互连接的网络。</p>
+<p>这就像一盘完全搅在一起的意大利面，因为每个神经元都在充当所有角色：训练前的每一个节点都是输入神经元，训练阶段是隐神经元，输出阶段则是输出神经元。</p>
+<p>该神经网络的训练，是先把神经元的值设置到期望模式，然后计算相应的权重。在这以后，权重将不会再改变了。一旦网络被训练包含一种或者多种模式，这个神经网络总是会收敛于其中的某一种学习到的模式，因为它只会在某一个状态才会稳定。值得注意的是，它并不一定遵从那个期望的状态（很遗憾，它并不是那个具有魔法的黑盒子）。它之所以会稳定下来，部分要归功于在训练期间整个网络的“能量（Energy）”或“温度（Temperature）”会逐渐地减少。每一个神经元的激活函数阈值都会被设置成这个温度的值，一旦神经元输入的总和超过了这个阈值，那么就会让当前神经元选择状态（通常是-1或1，有时也是0或1）。</p>
+<p>可以多个神经元同步，也可以一个神经元一个神经元地对网络进行更新。一旦所有的神经元都已经被更新，并且它们再也没有改变，整个网络就算稳定（退火）了，那你就可以说这个网络已经收敛了。这种类型的网络被称为“联想记忆（associative memory）”，因为它们会收敛到和输入最相似的状态；比如，人类看到桌子的一半就可以想象出另外一半；与之相似，如果输入一半噪音+一半桌子，这个网络就能收敛到整张桌子。</p>
+<h3 id="74">7.4卷积神经网络<a class="headerlink" href="#74" title="Permanent link">&para;</a></h3>
+<p>卷积神经网络是一种前馈型神经网络, 受生物自然视觉认知机制启发而来的. 现在, CNN 已经成为众多科学领域的研究热点之一, 特别是在模式分类领域, 由于该网络避免了对图像的复杂前期预处理, 可以直接输入原始图像, 因而得到了更为广泛的应用. 可应用于图像分类, 目标识别, 目标检测, 语义分割等等.</p>
+<p>CNN基本组成结构</p>
+<ol>
+<li>
+<p>输入层：数据的输入，但不是一维的向量，而是保留图片结构</p>
+</li>
+<li>
+<p>卷积层：使用固定的尺寸和权值的卷积核（也称滤波器），以一定的步长移动，对输入的矩阵进行滤波，加偏执，最后激活，最终组成一个特征图</p>
+</li>
+<li>
+<p>池化层：类比卷积核，以固定尺寸，一定步长移动，用最大池化或者平均池化对卷积层得到的特征进行差采样，加偏置，激活，组成一个更小的特征图</p>
+</li>
+<li>
+<p>全链接层：在CNN尾部进行拟合，减少特征值丢失</p>
+</li>
+<li>
+<p>输出层：输出结果</p>
+</li>
+</ol>
+<h3 id="75">7.5  生成对抗网络<a class="headerlink" href="#75" title="Permanent link">&para;</a></h3>
+<p>GAN生成式对抗网络（GAN：Generative adversarial networks）是一类不同的网络，它们有一对“双胞胎”：两个网络协同工作。</p>
+<p>GAN可由任意两种网络组成（但通常是FF和CNN），其中一个用于生成内容，另一个则用于鉴别生成的内容。</p>
+<p>鉴别网络（discriminating network）同时接收训练数据和生成网络（generative network）生成的数据。鉴别网络的准确率，被用作生成网络误差的一部分。这就形成了一种竞争：鉴别网络越来越擅长于区分真实的数据和生成数据，而生成网络也越来越善于生成难以预测的数据。这种方式非常有效，部分是因为：即便相当复杂的类噪音模式最终都是可预测的，但跟输入数据有着极为相似特征的生成数据，则很难区分。</p>
+<p>训练GAN极具挑战性，因为你不仅要训练两个神经网络（其中的任何一个都会出现它自己的问题），同时还要平衡两者的运行机制。如果预测或生成相比对方表现得过好，这个GAN就不会收敛，因为它会内部发散。</p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../Matrix Factorization/" title="Matrix Factorization" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  上一页
+                </span>
+                Matrix Factorization
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../Naive Bayes/" title="Naive Bayes" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  下一页
+                </span>
+                Naive Bayes
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+  <div class="md-footer-social">
+    <link rel="stylesheet" href="../../assets/fonts/font-awesome.css">
+    
+      <a href="https://github.com/AngelNI" class="md-footer-social__link fa fa-github"></a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.245445c6.js"></script>
+      
+        
+        
+          
+          <script src="../../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
+          
+            
+              
+              
+            
+          
+          
+        
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+        <script src="https://cdn.jsdelivr.net/gh/ethantw/Han@3.3.0/dist/han.min.js"></script>
+      
+        <script src="../../_static/js/extra.js?v=10"></script>
+      
+        <script src="https://cdnjs.loli.net/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+      
+    
+  </body>
+</html>
